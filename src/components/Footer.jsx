@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import Star from "../../public/star.svg";
+import Star from "../../public/Star.svg";
 import FIGMA from "../../public/FIGMA.svg";
 import DESIGNER from "../../public/DESIGNER.svg";
 
