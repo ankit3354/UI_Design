@@ -1,8 +1,8 @@
 import React from "react";
-import Star from "../../public/star.svg";
-import logo3 from "../../public/logo_3.png";
-import logo4 from "../../public/logo-4.png";
-import logo5 from "../../public/logo-5.png";
+import Star from "../../public/Star.svg";
+import logo3 from "../../public/logo3.png";
+import logo4 from "../../public/logo4.png";
+import logo5 from "../../public/logo5.png";
 
 function Blog() {
   return (
@@ -13,7 +13,10 @@ function Blog() {
           <img src={Star} alt="Star" />
           <h2 className="text-4xl font-normal font-['Syne']">Blog</h2>
         </div>
-        <a href="#" className="text-gray-400 text-sm hover:text-gray-300 underline-offset-2 underline">
+        <a
+          href="#"
+          className="text-gray-400 text-sm hover:text-gray-300 underline-offset-2 underline"
+        >
           view all
         </a>
       </div>
@@ -28,7 +31,9 @@ function Blog() {
           <div className="w-3/4 pl-6 flex justify-between items-center">
             <div>
               <p className="text-gray-400 text-sm">Nov 9, 2023</p>
-              <h3 className="text-xl font-semibold mt-1">How UX works in web</h3>
+              <h3 className="text-xl font-semibold mt-1">
+                How UX works in web
+              </h3>
               <div className="flex space-x-2 mt-2">
                 <span className="px-3 py-1 bg-transparent border border-white text-white text-xs rounded-full">
                   UI
@@ -50,7 +55,7 @@ function Blog() {
         {/* Second Blog Post */}
         <div className="flex items-center">
           <div className="w-1/4">
-             <img src={logo4} alt="logo4" className="rounded-xl" />
+            <img src={logo4} alt="logo4" className="rounded-xl" />
           </div>
           <div className="w-3/4 pl-6 flex justify-between items-center">
             <div>
@@ -79,7 +84,7 @@ function Blog() {
         {/* Third Blog Post */}
         <div className="flex items-center">
           <div className="w-1/4">
-           <img src={logo5} alt="logo5" className="rounded-xl" />
+            <img src={logo5} alt="logo5" className="rounded-xl" />
           </div>
           <div className="w-3/4 pl-6 flex justify-between items-center">
             <div>

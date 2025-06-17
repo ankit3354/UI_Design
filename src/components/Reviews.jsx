@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Star from "../../public/star.svg";
+import Star from "../../public/Star.svg";
 import quote from "../../public/quote.svg";
-import logo6 from "../../public/logo-6.png";
+import logo6 from "../../public/logo6.png";
 import { BsArrowLeft } from "react-icons/bs";
 import { BsArrowRight } from "react-icons/bs";
 

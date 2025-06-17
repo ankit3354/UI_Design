@@ -1,5 +1,5 @@
 import React from "react";
-import Star from "../../public/star.svg";
+import Star from "../../public/Star.svg";
 
 function Experience() {
   return (

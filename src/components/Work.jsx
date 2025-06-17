@@ -1,8 +1,8 @@
 import React from "react";
-import Star from "../../public/star.svg";
-import logo3 from "../../public/logo_3.png";
-import logo4 from "../../public/logo-4.png";
-import logo5 from "../../public/logo-5.png";
+import Star from "../../public/Star.svg";
+import logo3 from "../../public/logo3.png";
+import logo4 from "../../public/logo4.png";
+import logo5 from "../../public/logo5.png";
 
 function Works() {
   return (
